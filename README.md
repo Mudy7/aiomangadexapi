@@ -9,7 +9,7 @@ An unofficial asynchronous python [MangaDex](https://www.mangadex.org) API built
 # key features
  - get data on any manga from mangadex
  - get updates from mangadex main page
- - mangadex list scanner with a rss link
+ - get the mangas from anyone's list with a rss link
  - get any chapter link from mangadex
  
 [Documentation](#Documentation)
