@@ -68,7 +68,9 @@ session = await aiomangadexapi.login(username='username',password='password') # 
 |link|```Boolean```| value is True if name is a link, false otherwise (Default: False)  | Yes
 
 #### what does it return : 
+
 **it returns a dictionnarry with all these keys.**
+
 |Key|Value Information|
 |-|-
 |title|manga title|
