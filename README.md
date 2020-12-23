@@ -49,13 +49,14 @@ manga = asyncio.run(get_manga())
 |-|-|-|-
 |username|```String```| Login username | No
 |password|```String```| Login password | No
+Returns a session that is needed in other functions.
 ### login example 
 ```python
 session = await aiomangadexapi.login(username='username',password='password') # we login into mangadex
 ```
 
 # Search function
-**searches a manga on mangadex, can take a name or a link and returns a [dictionnary](####what does it return)**
+**searches a manga on mangadex, can take a name or a link and returns a dictionnary(read below for more details)**
 
 ### ```search(session,name,link)```
 |Arguments|Type|Information|Optional|default value
@@ -65,7 +66,7 @@ session = await aiomangadexapi.login(username='username',password='password') # 
 |link|```Boolean```| value is True if name is a link, false otherwise (Default: False)  | Yes
 
 #### what does it return : 
-** it returns a dictionnarry with all these keys.
+**it returns a dictionnarry with all these keys.**
 |Key|Value Information|
 |-|-
 |title|manga title|
