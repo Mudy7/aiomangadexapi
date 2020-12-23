@@ -6,7 +6,7 @@ An unofficial asynchronous python [MangaDex](https://www.mangadex.org) API built
 
 ```pip install aiomangadex-api```
 
-#key features
+# key features
  - get data on any manga from mangadex
  - get updates from mangadex main page
  - mangadex list scanner with a rss link
@@ -92,7 +92,7 @@ async def get_manga():
 ```
 
 # updates
-** Sends 
+** Sends **
 
 
 
