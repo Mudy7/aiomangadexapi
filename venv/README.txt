@@ -1,0 +1,1 @@
+An asynchronous API wrapper for mangadex with updates support,list scanning and more!
