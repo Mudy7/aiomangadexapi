@@ -126,7 +126,7 @@ returns a list of links of all the mangas in the user's mangadex list.
 
 ### mangadex_list Example 
 ```python
-async def updates():
+async def md_list():
  session = await aiomangadexapi.login(username='username',password='password') # we login into mangadex
  mangadex_list = await aiomangadexapi.get_list(session,'https://mangadex.org/rss/follows/TX7VKNS9hcudBenmUrFYM286ayGHvgfP?h=0') # get the user's mangadex list
  return mangadex_list
@@ -145,7 +145,7 @@ returns the link of the specified chapter.
 
 ### Updates Example 
 ```python
-async def updates():
+async def chapter():
  session = await aiomangadexapi.login(username='username',password='password') # we login into mangadex
  chapter = await aiomangadexapi.get_chapter(session,'solo leveling',120) # get the chapter link
  return chapter
