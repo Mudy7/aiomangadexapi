@@ -57,9 +57,9 @@ returns a session which you will need in other functions
 # Search function
 **searches a manga on mangadex, can take a name or a link and returns a [dictionnary](#what does it return)**
 
-###```search(session,name,link)```
+### ```search(session,name,link)```
 |Arguments|Type|Information|Optional|default value
-|-|-|-|-
+|-|-|-|-|-
 |session|```ClientSession()```| session that you get with the login function | No
 |name|```String```| manga name/manga link | No
 |link|```Boolean```| value is True if name is a link, false otherwise (Default: False)  | Yes
