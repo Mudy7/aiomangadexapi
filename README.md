@@ -33,12 +33,11 @@ manga = asyncio.run(get_manga())
 ```
 
 
-
 # Documentation
 [setup](#setup) <br>
 [search](#Search) <br>
 [updates](#updates) <br>
-[mangadex list scanner](#mangadex list scanner ) <br>
+[mangadex_list](#mangadex_list) <br>
 [get_chapter](#get_chapter) <br>
 
 ## setup
@@ -96,8 +95,61 @@ async def get_manga():
     return manga
 ```
 
-# updates
-** Sends **
+## updates
+**Get the updates from mangadex main page**
+
+### ```updates(session)```
+|Arguments|Type|Information|Optional
+|-|-|-|-
+|session|```ClientSession()```| session that you get with the login function | No
+
+returns a list of all the mangas on the main page (manga name, latest chapter and its link (english only))
+
+### Updates Example 
+```python
+async def updates():
+ session = await aiomangadexapi.login(username='username',password='password') # we login into mangadex
+ updates = await aiomangadexapi.updates(session) # get the updates
+ return updates
+```
+
+## mangadex_list
+**Get the updates from mangadex main page**
+
+### ```get_list(session,link)```
+|Arguments|Type|Information|Optional
+|-|-|-|-
+|session|```ClientSession()```| session that you get with the login function | No
+|session|```String```| An RSS link that you find in  https://mangadex.org/follows by right clicking The RSS icon (located to the right and it looks like a sideways wifi icon). Here's an example: https://mangadex.org/rss/follows/TX7VKNS9hcudBenmUrFYM286ayGHvgfP?h=0 | No
+
+returns a list of links of all the mangas in the user's mangadex list.
+
+### mangadex_list Example 
+```python
+async def updates():
+ session = await aiomangadexapi.login(username='username',password='password') # we login into mangadex
+ mangadex_list = await aiomangadexapi.get_list(session,'https://mangadex.org/rss/follows/TX7VKNS9hcudBenmUrFYM286ayGHvgfP?h=0') # get the user's mangadex list
+ return mangadex_list
+```
+## get_chapter
+**Get the specified chapter link of any manga**
+
+### ```get_chapter(session,name,chapter)```
+|Arguments|Type|Information|Optional
+|-|-|-|-
+|session|```ClientSession()```| session that you get with the login function | No
+|name|```String```| manga name | No
+|chapter|```Integer```| chapter number | No
+
+returns the link of the specified chapter.
+
+### Updates Example 
+```python
+async def updates():
+ session = await aiomangadexapi.login(username='username',password='password') # we login into mangadex
+ chapter = await aiomangadexapi.get_chapter(session,'solo leveling',120) # get the chapter link
+ return chapter
+```
 
 
 
