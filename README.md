@@ -32,6 +32,8 @@ manga = asyncio.run(get_manga())
 
 ```
 
+
+
 # Documentation
 [setup](#setup) <br>
 [search function](#Search function) <br>
@@ -52,10 +54,8 @@ manga = asyncio.run(get_manga())
 session = await aiomangadexapi.login(username='username',password='password') # we login into mangadex
 ```
 
-returns a session which you will need in other functions 
-
 # Search function
-**searches a manga on mangadex, can take a name or a link and returns a [dictionnary](#what does it return)**
+**searches a manga on mangadex, can take a name or a link and returns a [dictionnary](####what does it return)**
 
 ### ```search(session,name,link)```
 |Arguments|Type|Information|Optional|default value
