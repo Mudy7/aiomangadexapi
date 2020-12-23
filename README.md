@@ -41,7 +41,7 @@ manga = asyncio.run(get_manga())
 [mangadex list scanner](#mangadex list scanner ) <br>
 [get_chapter](#get_chapter) <br>
 
-# setup
+## setup
 **you need to login to make any of the functions work**
 ### ```login(username,password)```
 
@@ -57,7 +57,7 @@ Returns a session that is needed in other functions.
 session = await aiomangadexapi.login(username='username',password='password') # we login into mangadex
 ```
 
-# Search
+## Search
 **searches a manga on mangadex, can take a name or a link and returns a dictionnary(read below for more details)**
 
 ### ```search(session,name,link)```
