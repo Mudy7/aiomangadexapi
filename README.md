@@ -61,13 +61,13 @@ session = await aiomangadexapi.login(username='username',password='password') # 
 **searches a manga on mangadex, can take a name or a link and returns a dictionnary(read below for more details)**
 
 ### ```search(session,name,link)```
-|Arguments|Type|Information|Optional|default value
-|-|-|-|-|-
+|Arguments|Type|Information|Optional
+|-|-|-|-
 |session|```ClientSession()```| session that you get with the login function | No
 |name|```String```| manga name/manga link | No
 |link|```Boolean```| value is True if name is a link, false otherwise (Default: False)  | Yes
 
-#### what does it return : 
+### what does it return : 
 
 **it returns a dictionnarry with all these keys.**
 
