@@ -49,7 +49,9 @@ manga = asyncio.run(get_manga())
 |-|-|-|-
 |username|```String```| Login username | No
 |password|```String```| Login password | No
+
 Returns a session that is needed in other functions.
+
 ### login example 
 ```python
 session = await aiomangadexapi.login(username='username',password='password') # we login into mangadex
