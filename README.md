@@ -41,7 +41,7 @@ manga = asyncio.run(get_manga())
 
 # setup
 **you need to login to make any of the functions work**
-###```login(username,password)```
+### ```login(username,password)```
 
 |Arguments|Type|Information|Optional
 |-|-|-|-
