@@ -24,7 +24,7 @@ def fetch_link(response):
     try:
         link = root + "api/v2/manga/" + tree.xpath("""//*[@id="content"]/div[5]/div/@data-id""")[
             0] + "?include=chapters"
-        print(link)
+        
         return link
     except:
         raise NOTFOUND("manga not found")
