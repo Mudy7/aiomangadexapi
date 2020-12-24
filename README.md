@@ -1,7 +1,7 @@
 # Asynchronous MangaDex python API 
 An unofficial asynchronous python [MangaDex](https://www.mangadex.org) API built with the JSON API and web scraping.
 
-[![Version](https://warehouse-camo.ingress.cmh1.psfhosted.org/272daab11b917f0c559858562da44257e95d80e6/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f646a616e676f2e737667)]()
+[![Version](https://warehouse-camo.ingress.cmh1.psfhosted.org/272daab11b917f0c559858562da44257e95d80e6/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f646a616e676f2e737667(https://test.pypi.org/project/aiomangadexapi/)
 [![License](https://img.shields.io/github/license/md-y/mangadex-full-api.svg?style=flat)](https://github.com/Mudy7/aiomangadexapi/blob/master/LICENCE.txt)
 
 [<img src="https://reclaimthenet.org/wp-content/uploads/2020/01/mangadex-768x366.jpg">](https://reclaimthenet.org/wp-content/uploads/2020/01/mangadex-768x366.jpg)
