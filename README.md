@@ -8,7 +8,11 @@ An unofficial asynchronous python [MangaDex](https://www.mangadex.org) API built
 
 # installation : 
 ## ```pip install -i https://test.pypi.org/simple/ aiomangadexapi==1.1.0```
-
+## If you get errors install these first : 
+ - ```pip install lxml```
+ - ```pip install feedparser```
+ - ```pip install aiohttp```
+ 
 # key features
  - get data on any manga from mangadex
  - get updates from mangadex main page
