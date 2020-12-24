@@ -123,7 +123,7 @@ async def updates():
 ```
 
 ## mangadex_list
-**Get the updates from mangadex main page**
+**Get all the mangas of a user's mangadex list**
 
 ### ```get_list(session,link)```
 |Arguments|Type|Information|Optional
