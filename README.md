@@ -75,6 +75,7 @@ it returns a dictionnarry with all these keys.
 
 |Key|Value Information|
 |-|-
+|id| manga ID|
 |title|manga title|
 |stars|manga rating|
 |alternative|manga alternative titles|
