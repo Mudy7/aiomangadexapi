@@ -145,7 +145,7 @@ async def md_list():
 
 returns the link of the specified chapter.
 
-### Updates Example 
+### get_chapter Example 
 ```python
 async def chapter():
  session = await aiomangadexapi.login(username='username',password='password') # we login into mangadex
