@@ -7,7 +7,7 @@ An unofficial asynchronous python [MangaDex](https://www.mangadex.org) API built
 [<img src="https://reclaimthenet.org/wp-content/uploads/2020/01/mangadex-768x366.jpg">](https://reclaimthenet.org/wp-content/uploads/2020/01/mangadex-768x366.jpg)
 
 # installation : 
-## ```pip install -i https://test.pypi.org/simple/ aiomangadexapi==1.0.5```
+## ```pip install -i https://test.pypi.org/simple/ aiomangadexapi```
 
 # key features
  - get data on any manga from mangadex
