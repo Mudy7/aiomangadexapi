@@ -6,6 +6,12 @@ An unofficial asynchronous python [MangaDex](https://www.mangadex.org) API built
 
 [<img src="https://reclaimthenet.org/wp-content/uploads/2020/01/mangadex-768x366.jpg">](https://reclaimthenet.org/wp-content/uploads/2020/01/mangadex-768x366.jpg)
 
+# key features
+ - get data on any manga from mangadex
+ - get updates from mangadex main page
+ - get the mangas from anyone's list with a rss link
+ - get any chapter link from mangadex
+ 
 # installation : 
 ## ```pip install -i https://test.pypi.org/simple/ aiomangadexapi==1.1.0```
 ## If you get errors install these first : 
@@ -13,11 +19,6 @@ An unofficial asynchronous python [MangaDex](https://www.mangadex.org) API built
  - ```pip install feedparser```
  - ```pip install aiohttp```
  
-# key features
- - get data on any manga from mangadex
- - get updates from mangadex main page
- - get the mangas from anyone's list with a rss link
- - get any chapter link from mangadex
  
 [Documentation](#Documentation)
 
