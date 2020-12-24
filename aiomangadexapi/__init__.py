@@ -76,6 +76,7 @@ def parse(response):
     data, chapters = payload['data']['manga'], payload['data']['chapters']
 
     data = {
+        'id': data['id'],
         'title': data['title'],
         'stars': data['rating']['mean'],
         'alternative': data['altTitles'],
