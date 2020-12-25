@@ -93,6 +93,7 @@ it returns a dictionnarry with all these keys.
 |status|the status of the manga (1=onGoing,2=Completed)|
 |latest|latest manga's chapter link|
 |description|manga's description|
+| chapter_read| all the chapters id and their number |
 
                                                                             
 ### Search Example
