@@ -13,7 +13,7 @@ An unofficial asynchronous python [MangaDex](https://www.mangadex.org) API built
  - get any chapter link from mangadex
  
 # installation : 
-## ```pip install -i https://test.pypi.org/simple/ aiomangadexapi==1.1.0```
+## ```pip install aiomangadexapi==1.1.0```
 ## If you get errors install these first : 
  - ```pip install lxml```
  - ```pip install feedparser```
